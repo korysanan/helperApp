@@ -1,4 +1,3 @@
-// login_screen.dart 파일
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -57,7 +56,6 @@ class LoginScreen extends StatelessWidget {
               'OR',
               textAlign: TextAlign.center,
             ),
-            // ... Social buttons will go here ...
             SizedBox(height: 24),
             TextButton(
               child: Text('Need An account? SIGN UP'),
