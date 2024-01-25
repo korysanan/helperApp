@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'login/login.dart'; // LoginScreen 위젯이 정의된 파일을 import 합니다.
+import 'login/login.dart'; // login.dart를 import 합니다.
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Login Screen App',
-      home: LoginScreen(), 
+      title: 'Flutter Login Screen',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: LoginScreen(), // LoginScreen을 home으로 설정합니다.
     );
   }
 }
